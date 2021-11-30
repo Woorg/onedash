@@ -69,8 +69,10 @@
     }
     &:hover {
         @include tr(.3s ease);
-
+        background-color: darken(var(--blue), 10);
+        @include tr(.3s ease);
     }
+
 }
 
 .button_more {
