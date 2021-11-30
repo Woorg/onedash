@@ -934,12 +934,13 @@ img:not([src]):not([srcset]) {
   position: absolute;
   top: calc(100% - 33px);
   right: 0;
-  max-width: 114px;
+  max-width: 90px;
 }
 
 @media (min-width: 1000px) {
   .header__social {
     top: calc(100% - 10px);
+    max-width: 114px;
   }
 }
 
