@@ -2094,7 +2094,7 @@ img:not([src]):not([srcset]) {
 }
 
 .footer__copyright {
-  border-top: 1px solid #7b7c83;
+  border-top: 1px solid #1D2C6B;
   margin-top: 24px;
   padding-top: 30px;
   padding-bottom: 17px;
