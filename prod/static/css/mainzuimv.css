@@ -343,6 +343,7 @@ pseudo:before, pseudo:after {
   padding-left: 0;
   height: auto;
   background: transparent;
+  opacity: 1;
 }
 
 .button_more:after {
@@ -367,6 +368,11 @@ pseudo:before, pseudo:after {
   height: 15px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+
+.button_more:hover {
+  background: transparent;
+  opacity: .9;
 }
 
 .button_transparent {
@@ -1141,6 +1147,10 @@ img:not([src]):not([srcset]) {
   line-height: 1.49;
   letter-spacing: -0.2px;
   color: rgba(255, 255, 255, 0.5);
+}
+
+.nav_secondary .nav__link:hover {
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .nav_open .nav__list {

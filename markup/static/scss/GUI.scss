@@ -81,6 +81,7 @@
     padding-left: 0;
     height: auto;
     background: transparent;
+    opacity: 1;
 
     &:after {
         position: absolute;
@@ -102,6 +103,11 @@
         width: 15px;
         height: 15px;
         transform: translateY(-50%)
+    }
+
+    &:hover {
+        background: transparent;
+        opacity: .9;
     }
 
 }
